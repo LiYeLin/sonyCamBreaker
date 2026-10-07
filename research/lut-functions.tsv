@@ -1,0 +1,15 @@
+# ELF start  exclusive-end  analyst-name (identified through string xrefs)
+0x352c5dc 0x352c790 set_base_picture_setting_i
+0x3428510 0x342863c send_lut
+0x342863c 0x342888c send_lut_procam
+0x303dca0 0x303de48 get_select_lut_by_pp
+0x2d4cd98 0x2d4cf00 convert_base_look_select
+0x26a6f64 0x26a7150 set_pplut_link_candidate
+0x3537fd0 0x353806c send_base_picture_setting_wrapper
+0x352aad8 0x352b4e8 set_picture_profile_i
+0x352d1bc 0x352d288 set_movie_letter_box_i
+0x2d4a988 0x2d4aa80 is_record_to_media
+0x30210c8 0x3021228 upload_lut_buffer_candidate
+0x35287f0 0x352891c set_color_mode_i
+0x35358b8 0x3535b5c imaging_message_transport_candidate
+0x35aa4b4 0x35aa4dc assertion_failure_noreturn

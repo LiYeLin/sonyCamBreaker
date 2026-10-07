@@ -1,0 +1,20 @@
+# Local third-party checkouts (versions and sources documented in HANDOFF.md)
+/Sony-PMCA-RE/
+/sony-pmca-ricoh-mod/
+/fwtool.py/
+/ILCE-7M4-RE/
+/research/fwtool-cxd90057/
+
+# Proprietary firmware, extracted binaries and generated research artifacts
+/research/a7c2-2.01/
+/research/ghidra-projects/
+/research/tools/
+
+# Local runtime, credentials and caches
+.venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+.env
+.env.*
+*.log
