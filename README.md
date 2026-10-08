@@ -6,4 +6,4 @@
 
 当前仍处于离线研究阶段，尚未证明全分辨率照片 JPEG 能应用自定义 LUT；未连接或修改相机。详细阶段索引见 [research/README.md](research/README.md)。
 
-仓库仅提交研究文档、自编分析脚本、测试和函数清单；不分发 Sony 固件、提取二进制、生成的反编译/JSON 产物、第三方仓库、Ghidra 或 Python 环境。这些文件在原工作区保留，并由 `.gitignore` 排除。新克隆必须先按交接文档准备本地输入，才能运行依赖固件的完整测试；文中的“测试通过”指原工作区验证结果。
+私有仓库包含逆向所需的三份核心二进制：`cpapp-b.bin`、`appFw.so`和 `av-cam.bin`，详见 [research/FIRMWARE_INPUTS.md](research/FIRMWARE_INPUTS.md)。完整 `BODYDATA.DAT`、分区镜像、生成的反编译/JSON 产物、第三方仓库、Ghidra 和 Python 环境仍由 `.gitignore` 排除。

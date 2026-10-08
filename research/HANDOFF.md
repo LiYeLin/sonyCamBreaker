@@ -48,6 +48,8 @@
 | `cp-selected/files/cpapp-b.bin` | ARM32，主要 Thumb2；离线 VA = 文件偏移 + `0x108000` | `f5a477588698ef965748903b8959a39ce4f59ffd4aee4d4234ef1670f56a1428` |
 | `system-selected/files/av-cam.bin` | 原始 AArch64；离线 VA = 文件偏移 + `0xffffffc001000000`，报告优先写文件偏移 | `90343f5f2edc0393ad8809d907cfe648dfd3a82ce0ef39cf06167929d8955096` |
 
+上表三份分析二进制已跟踪在私有 Git 仓库中；详见 [FIRMWARE_INPUTS.md](FIRMWARE_INPUTS.md)。完整 `BODYDATA.DAT`和分区镜像未提交。
+
 离线加载地址不代表已经核实的真机物理地址。appFw 的部分 LOAD 段存在 `0x10000` 差值，不能直接用 VA 当文件偏移。
 
 DAT CRC、FDAT 头校验通过；CXD90057_k8 解密成功。内部版本 2.01、model `0x20030014`、region 0。提取物在 `unpacked/`、`partitions/0700_part_image/dev/`。nflasha15 为 `/usr` ext2；nflasha3 为 `/system` FAT；nflasha8 为 `/cp` FAT；nflasha7 为 rootfs。

@@ -5,7 +5,8 @@
 /ILCE-7M4-RE/
 /research/fwtool-cxd90057/
 
-# Proprietary firmware, extracted binaries and generated research artifacts
+# Generated firmware artifacts remain excluded. The three analysis inputs listed
+# in research/FIRMWARE_INPUTS.md are deliberately force-tracked.
 /research/a7c2-2.01/
 /research/ghidra-projects/
 /research/tools/
